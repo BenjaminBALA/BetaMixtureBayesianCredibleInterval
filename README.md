@@ -2,7 +2,7 @@
 
 The goal of this code is to compare frequentist confidence intervals with Bayesian confidence intervals given varying sample sizes and population proportions. This code uses a mixture of two beta's to illustrate that a mixture can make it difficult to get coverage on the Bayesian Credible Interval.
 
-This code is similar to the Bayesian Credible interval with the Binomial Beta conjugate prior except it is a mixuture where the prior is \frac{1}{2}*Beta(10,1) + \frac{1}{2}*Beta(1,10). This problem is to demonstrate that when there is a mixture prior that is quite different for two different parts of the mixture, it is difficult to get coverage on the Bayesian credible interval.
+This code is similar to the Bayesian Credible interval with the Binomial Beta conjugate prior except it is a mixuture where the prior is $\frac{1}{2}$*Beta(10,1) + $\frac{1}{2}$*Beta(1,10). This problem is to demonstrate that when there is a mixture prior that is quite different for two different parts of the mixture, it is difficult to get coverage on the Bayesian credible interval.
 
 When the sample size is small, the mixture 1/2 and 1/2 prior performs very poorly for the Bayesian credible interval. This is because the Bayesian method learns from the data and you need a higher sample size in order to learn well from the data. I implemented the mixture of priors in this situation in order to sample for the Bayes interval. 
 
