@@ -1,4 +1,4 @@
-# BetaMixtureBayesianCredibleInterval
+# Beta Mixture Bayesian Credible Interval
 
 The goal of this code is to compare frequentist confidence intervals with Bayesian confidence intervals given varying sample sizes and population proportions. This code uses a mixture of two beta's to illustrate that a mixture can make it difficult to get coverage on the Bayesian Credible Interval.
 
